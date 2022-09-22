@@ -1,0 +1,110 @@
+a {
+  color: #070707;
+}
+h1 {
+  font-size: 48px;
+  line-height: 65px;
+  text-align: left;
+  margin: 20px 0 50px;
+}
+h2 {
+  padding: 100px 0 50px 0;
+  font-size: 34px;
+  line-height: 46px;
+  margin: 0;
+}
+.generalWrapper {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 970px;
+  margin: 0 auto;
+  color: #070707;
+}
+.navigationMenu li {
+  display: inline;
+  list-style: none;
+  letter-spacing: 0.02em;
+  margin: 0 40px 0 0;
+}
+.navigationMenu a {
+  color: #828282;
+  text-decoration: none;
+}
+.navigationMenu a:hover {
+  color: #070707;
+}
+.gorisontalLine {
+  border-top: 1px solid #828282;
+}
+.introduction img {
+  width: 100%;
+}
+.portfolio,
+.aboutMe {
+  background: #f6f6f6;
+}
+.imageWrapper {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+}
+.aboutMeWrapper {
+  max-width: 420px;
+  padding: 0 0 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.skillsDescription {
+  display: inline-block;
+  margin: 0 25px 100px;
+}
+.skillsDescription img {
+  max-width: 80px;
+}
+.webReference {
+  margin: 50px auto 70px;
+  max-width: 200px;
+}
+.btn {
+  display: block;
+  width: 170px;
+  font-size: 18px;
+  margin: 0 auto 10px;
+  padding: 10px;
+  color: #ffffff;
+  background: #070707;
+  border-radius: 22px;
+}
+.remark {
+  max-width: 200px;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  margin: 40px auto;
+  color: #828282;
+}
+.imageSocialGroup {
+  max-width: 310px;
+}
+.skills h2::after {
+  content: "I work in such programs as";
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contacts h2::after {
+  content: "Want to know more or just chat? You are welcome!";
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 250px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
