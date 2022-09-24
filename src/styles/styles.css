@@ -42,6 +42,7 @@ ul {
 li {
   border: 1px solid #7a7593;
   padding: 12px 10px;
+  transition: all 0.5s ease-in;
 }
 ul + .bon-appetit {
   width: 60%;
@@ -57,6 +58,10 @@ ul + .bon-appetit {
 }
 li:nth-child(even) {
   background: #7a7593;
+}
+li:hover {
+  background-color: #625e77;
+  border: 3px solid #e5e5e5;
 }
 small {
   font-size: 11px;
